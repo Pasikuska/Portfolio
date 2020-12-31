@@ -22,6 +22,11 @@ h2 {
   text-decoration: underline;
 }
 
+h4 {
+  font-family: 'Lobster', cursive;
+  font-weight: lighter;
+}
+
 .my-image {
   width: 10%;
   margin: 2%;
@@ -29,7 +34,7 @@ h2 {
 }
 
 .my-image:hover {
-  border-radius: 25%;
+  border-radius: 10%;
 }
 
 .svg-color {
@@ -75,8 +80,7 @@ h2 {
 }
 
 .footer {
-  height: 80px;
-  padding: 1% 30%;
+  padding: 2% 30% 1%;
   text-align: center;
   background-color: #212529;
 }
@@ -108,3 +112,11 @@ h2 {
 }
 
 /* ---Footer--- */
+
+.move-top {
+  color: #fcdab7;
+}
+
+.move-top:hover {
+  color: white;
+}
